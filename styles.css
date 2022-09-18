@@ -1,0 +1,55 @@
+
+
+.title {
+    text-align: center;
+}
+
+#click {
+    text-align: end;
+    margin-right: 400px;
+    margin-top: 3rem;
+}
+
+#yesbanana {
+    display: none;
+}
+
+#nobanana {
+    
+}
+
+.pics {
+    border: solid black 1rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#portrait {
+    border: solid green 1rem;
+    margin-right: 350px;
+   
+}
+
+#target {
+   
+}
+
+#apple {
+    border: solid red 2px;
+    margin-top: 5rem;
+    width: 20rem;
+    height: auto;
+    margin-left: 50px;
+}
+
+#droplets {
+    position: absolute;
+    width: 20rem;
+    height: auto;
+    right: 400px;
+    top: 250px;
+    visibility: hidden;
+    /*left: 120px;*/
+    
+}
