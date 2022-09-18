@@ -19,14 +19,14 @@
 }
 
 .pics {
-    border: solid black 1rem;
+    /*border: solid black 1rem;*/
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
 }
 
 #portrait {
-    border: solid green 1rem;
+    /*border: solid green 1rem;*/
     margin-right: 350px;
    
 }
@@ -36,7 +36,7 @@
 }
 
 #apple {
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     margin-top: 5rem;
     width: 20rem;
     height: auto;
@@ -51,5 +51,6 @@
     top: 250px;
     visibility: hidden;
     /*left: 120px;*/
+    transition-duration: 1s;
     
 }
