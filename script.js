@@ -13,7 +13,7 @@ const missileMover = function () {
     missile.style.top = '390px';
     document.getElementById('nobanana').style.display = 'none';
     document.getElementById('yesbanana').style.display = 'inline';
-    document.getElementsByTagName('h2').style.visibility = 'visible';
+    //document.getElementsByTagName('h2').style.visibility = 'visible';
 
 
     //document.getElementsByClassName('title')[0].innerHTML = 'fuck you';
