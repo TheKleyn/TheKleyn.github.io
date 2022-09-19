@@ -88,25 +88,73 @@ h3 {
     100% {color: rgb(255, 255, 0);}
 }
 
+.thumbs {
+    margin: 20px;
+    
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+#thumbsup {
+    width: 3rem;
+    height: auto;
+    padding: 10px;
+}
+
+#thumbsdown {
+    width: 3rem;
+    height: auto;
+    padding: 10px;
+}
+
+#response {
+    position: absolute;
+    visibility: hidden;
+    font-size: 2rem;
+    font-family: monospace;
+    border: black solid 5px;
+    border-radius: 20px;
+    padding: 5px;
+    bottom: 70px;
+    right: 600px;
+}
+
 
 
 @media screen and (max-width: 1180px) {
+
+
     @keyframes right-to-left {
-        0% {left: 250px;
+        0% {left: 150px;
             transform: rotate(20deg);
-            top: 300px;}
+            top: 350px;}
         50% {
             
             top: 240px;}    
-        100% {left: 70px;
+        100% {left: 30px;
             transform: rotate(-70deg);
             top: 350px;}
     }
 
     #click {
-        text-align: end;
-        margin-right: 300px;
-        margin-top: 3rem;
+        
+        
+        
+    }
+
+    #apple {
+        /*border: solid red 2px;*/
+        
+        margin-top: 5rem;
+        width: 10rem;
+        padding: 0%;
+    }
+
+    #portrait {
+        /*border: solid green 1rem;*/
+        margin-right: 150px;
+       
     }
    
 }
