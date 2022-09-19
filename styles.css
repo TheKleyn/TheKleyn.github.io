@@ -2,6 +2,12 @@
 
 .title {
     text-align: center;
+    background-color: bisque;
+    padding: 2rem;
+}
+
+h2 {
+    visibility: hidden;
 }
 
 #click {
@@ -47,10 +53,21 @@
     position: absolute;
     width: 20rem;
     height: auto;
-    right: 400px;
-    top: 250px;
+    left: 600px;
+    top: 350px;
     visibility: hidden;
     /*left: 120px;*/
     transition-duration: 1s;
     
+}
+
+@media screen and (max-width: 1030px) {
+    #droplets {
+        left: 250px;
+
+    }
+
+    body {
+        
+    }
 }
