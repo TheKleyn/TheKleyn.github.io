@@ -29,7 +29,7 @@ const thumbsup = function () {
     document.getElementById('response').style.visibility = 'visible';
 }
 const thumbsdown = function () {
-     document.getElementById('response').innerHTML = 'This year may you biggly suck my old cock...';
+     document.getElementById('response').innerHTML = 'This year may you biggly suck my titties...';
      document.getElementById('response').style.visibility = 'visible';
 }
 

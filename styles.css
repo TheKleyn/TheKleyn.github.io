@@ -55,8 +55,8 @@ html,body{
     position: absolute;
     width: 20rem;
     height: auto;
-    left: 600px;
-    top: 350px;
+    left: 50px;
+    top: 50px;
     visibility: hidden;
     /*left: 120px;
     transition-duration: 1s;*/
@@ -166,7 +166,7 @@ h3 {
 
 
     @keyframes right-to-left {
-        0% {left: 90px;
+        0% {left: 110px;
             transform: rotate(20deg);
             top: 350px;}
         50% {
@@ -207,6 +207,18 @@ h3 {
         /*border: solid green 1rem;*/
         margin: 0;
        
+    }
+
+    #droplets {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        left: 50px;
+        top: 50px;
+    
+        /*left: 120px;
+        transition-duration: 1s;*/
+        
     }
 
     #response {
