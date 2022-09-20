@@ -128,7 +128,7 @@ h3 {
 
 
     @keyframes right-to-left {
-        0% {left: 150px;
+        0% {left: 320px;
             transform: rotate(20deg);
             top: 350px;}
         50% {
@@ -139,10 +139,22 @@ h3 {
             top: 350px;}
     }
 
+    .title {
+        padding: 5px;
+    }
+
     #click {
-        
-        
-        
+        position: relative;
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+    }
+
+    #droplets {
+  
+        width: 200px;
+        height: auto;
+    
     }
 
     #apple {
@@ -158,6 +170,18 @@ h3 {
         margin-right: 150px;
        
     }
+
+    #response {
+        position: relative;
+        visibility: hidden;
+        font-size: 16px;
+        font-family: monospace;
+        border: black solid 5px;
+        border-radius: 5px;
+        padding: 1px;
+        bottom: 0px;
+        right: 0px;
+    }
    
 }
 
@@ -168,7 +192,7 @@ h3 {
     @keyframes right-to-left {
         0% {left: 110px;
             transform: rotate(20deg);
-            top: 350px;}
+            top: 420px;}
         50% {
             
             top: 240px;}    
@@ -177,15 +201,7 @@ h3 {
             top: 350px;}
     }
 
-    #click {
-        position: relative;
-        text-align: center;
-        padding: 5px;
-        margin: auto;
-       
-        
-        
-    }
+    
 
     .pics {
         /*border: solid black 1rem;*/
@@ -209,29 +225,9 @@ h3 {
        
     }
 
-    #droplets {
-        position: absolute;
-        width: 200px;
-        height: auto;
-        left: 50px;
-        top: 50px;
     
-        /*left: 120px;
-        transition-duration: 1s;*/
-        
-    }
 
-    #response {
-        position: relative;
-        visibility: hidden;
-        font-size: 16px;
-        font-family: monospace;
-        border: black solid 5px;
-        border-radius: 5px;
-        padding: 1px;
-        bottom: 0px;
-        right: 0px;
-    }
+   
     
    
 }
