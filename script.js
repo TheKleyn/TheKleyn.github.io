@@ -3,6 +3,7 @@ let missile = document.getElementById('droplets');
 let theMan = document.getElementById('nobanana');
 
 let laugh = new Audio('./Media/laughter.mp3')
+laugh.loop = true;
 
 const missileMover = function () {
     /*object.target.style.removeProperty('right');
@@ -24,11 +25,11 @@ const missileMover = function () {
 theMan.onclick = missileMover;
 
 const thumbsup = function () {
-    document.getElementById('response').innerHTML = 'Thanks, let me grab you by the pussy...';
+    document.getElementById('response').innerHTML = 'Thanks! May you be zoche to be grabbed by your pussy...';
     document.getElementById('response').style.visibility = 'visible';
 }
 const thumbsdown = function () {
-     document.getElementById('response').innerHTML = 'Suck my old cock...';
+     document.getElementById('response').innerHTML = 'This year may you biggly suck my old cock...';
      document.getElementById('response').style.visibility = 'visible';
 }
 

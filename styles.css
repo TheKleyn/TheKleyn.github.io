@@ -1,9 +1,11 @@
-
+html,body{
+    overflow-x: hidden;
+}
 
 .title {
     text-align: center;
     background-color: bisque;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /*h2 {
@@ -117,7 +119,7 @@ h3 {
     border-radius: 20px;
     padding: 5px;
     bottom: 70px;
-    right: 600px;
+    right: 500px;
 }
 
 
@@ -156,5 +158,68 @@ h3 {
         margin-right: 150px;
        
     }
+   
+}
+
+@media screen and (max-width: 450px) {
+    
+
+
+    @keyframes right-to-left {
+        0% {left: 90px;
+            transform: rotate(20deg);
+            top: 350px;}
+        50% {
+            
+            top: 240px;}    
+        100% {left: 30px;
+            transform: rotate(-70deg);
+            top: 350px;}
+    }
+
+    #click {
+        position: relative;
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+       
+        
+        
+    }
+
+    .pics {
+        /*border: solid black 1rem;*/
+        display: inline-flex;
+        width: 100vw;
+        justify-content: center;
+        
+    }
+
+    #apple {
+        /*border: solid red 2px;*/
+        
+        margin-top: 5rem;
+        width: 10rem;
+        padding: 0px;
+    }
+
+    #portrait {
+        /*border: solid green 1rem;*/
+        margin: 0;
+       
+    }
+
+    #response {
+        position: relative;
+        visibility: hidden;
+        font-size: 16px;
+        font-family: monospace;
+        border: black solid 5px;
+        border-radius: 5px;
+        padding: 1px;
+        bottom: 0px;
+        right: 0px;
+    }
+    
    
 }
